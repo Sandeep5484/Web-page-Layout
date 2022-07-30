@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 3</title>
+  </head>
+  <body>
+    <table id="navbar">
+      <tbody>
+        <tr>
+          <td>Home</td>
+        </tr>
+        <tr>
+          <td>About</td>
+        </tr>
+          <tr>
+            <td><a href="contact.html">Contact</a></td>
+          </tr>
+      </tbody>
+    </table>
+
+    <table id="about-heading">
+      <tbody>
+        <tr>
+          <th>About Me</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="about-data">
+      <tbody>
+        <tr>
+          <td><img src="photo.jpg"/>
+          </td>
+          <td id="data-1">
+            Hello I'm Sandeep Kumar. I'm From Kanpur, Uttar-Pradesh , India.
+            Currently I Am Pursuing My B.Tech In Chemical Engineering (CHE) From
+            Dr. B. R. Ambedkar National Institute Of Technology, Jalandhar. I am
+            Passionate about MERN Stack Web Development And DSA , goal is to
+            achieve a good position by doing satisfying work in the IT field.
+            Always welcoming new opportunities !
+          </td>
+          
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="about-heading">
+      <tbody>
+        <tr>
+          <th>Full Stack Web Developer</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <table id="about-data">
+      <tbody>
+        <tr>
+          <td id="data-2">
+            A full stack developer is someone who design and works with both the front end and back end components of a web application.This Video will tell us about How to become a Full Stack Developer.
+          </td>
+          <td><iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/OVHXTBZu-Zs"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen
+          ></iframe></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <div class="footer">
+        <a href="https://www.linkedin.com/in/kumar-sandeep7/"
+          >Developed with ❤️ By &copy; <span>Sandeep Kumar</span> @2022</a
+        >
+      </div>
+    </footer>
+
+    <!-- ****** Styling of the page Starts From here ****** -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #navbar {
+        background-color: #333;
+        height: 3.6rem;
+        width: 100%;
+      }
+      #navbar tbody {
+        float: right;
+      }
+      tr {
+        display: inline;
+      }
+      #navbar td a{
+        text-decoration: none;
+        color: #f2f2f2;
+      }
+      #navbar td {
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 2rem;
+        padding: 1rem 0.9rem;
+        box-sizing: content-box;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+      }
+      #navbar td:hover {
+        background-color: #04aa6d;
+        color: black;
+      }
+      #about-heading{
+        font-size: 2rem;
+        margin: 2rem;
+      }
+      #about-data{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+      }
+      #data-1{
+        padding-left: 3rem;
+      }
+      #data-2{
+        padding-right: 3rem;
+      }
+      #about-data img{
+        width: 30rem;
+        height: 20rem;
+      }
+      .footer {
+        background-color: #333;
+        color: #f2f2f2;
+        height: 6rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .footer a {
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-top: 0.1rem;
+      }
+    </style>
+  </body>
+</html>
